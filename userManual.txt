@@ -12,7 +12,7 @@ git add .
 git commit -a -m "message"
 
 // remote add
-git remote add "address"
+git remote add origin "address"
 
 // push
 git push -u origin master (this origin can be any name)
