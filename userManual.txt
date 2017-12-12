@@ -12,10 +12,10 @@ git add .
 git commit -a -m "message"
 
 // remote add
-git remote add origin "address"
+git remote add origin "address" (this origin can be any name)
 
 // push
-git push -u origin master (this origin can be any name)
+git push -u origin master
 
 // branch create
 git branch branchName
