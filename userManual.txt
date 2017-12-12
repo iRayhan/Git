@@ -1,0 +1,31 @@
+// initialize
+git init
+
+// git configure
+git config --global user.email "userEmail"
+git config --global user.name "userName"
+
+// git add
+git add .
+
+// git commit
+git commit -a -m "message"
+
+// remote add
+git remote add "address"
+
+// push
+git push -u origin master (this origin can be any name)
+
+// branch create
+git branch branchName
+
+// switch branch
+git checkout branchName
+
+Note: After working in branch it needs to add and commit again
+
+// merge with master
+git merge branchName
+
+Note: 1st switch to master branch
