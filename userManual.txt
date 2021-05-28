@@ -28,4 +28,7 @@ Note: After working in branch it needs to add and commit again
 // merge with master
 git merge branchName
 
+// finally add ssh key in any git
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 Note: 1st switch to master branch
